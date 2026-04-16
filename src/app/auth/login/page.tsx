@@ -21,7 +21,7 @@ export default function LoginPage() {
 
         {/* Form */}
         <div className="card">
-          <form action={signIn} className="space-y-4">
+          <form action={signIn as any} className="space-y-4">
             <div>
               <label className="field-label">Courriel</label>
               <input
